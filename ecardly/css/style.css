@@ -47,6 +47,18 @@ body{
      margin:0 auto;
 }
 
+main{ /*doesnt highlight yet because sublime text is behind with updating on new syntax*/
+     float:left;
+     width: 640px; /*total 960 minus sidebar width 300*/
+}
+
+aside{
+     float:left;
+     background-color: white;
+     width: 280px; /*need to take 10px off because have added 10px of margin on lefthand side*/
+     margin:10px 0px 0px 10px;
+}
+
 /*THE IMAGE REPLACEMENT TECHNIQUE: we do this for google SEO, because google does not look into your CSS. We want the text in h1 for SEO, but obviously we replace it with an image and dont want the text in h1 to be visible!!!*/
 h1{
     /*see http://www.sitepoint.com/new-css-image-replacement-technique/ for explanation*/
