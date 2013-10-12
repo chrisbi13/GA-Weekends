@@ -1,5 +1,39 @@
+#container{
+	width: 960px;
+	margin: 0 auto;
+	background: grey;
 
+}
+#header{
+	background: green;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	
+}
 
+#content{
+	margin-top: 20px;
+	background: beige;
+	
+	width:560px;
+	float: left;
+}
 
+.alignleft{
+	float: left;
+	margin: 10px;
+}
+
+.sidebar{/*changed the original # to the class and changed from id to class in html since we introduced a new sidebar on the left of the content.*/
+	float:left;
+	width: 200px;
+	background: red;
+	margin-top: 20px;
+}
+
+#footer{
+	clear: both;
+}
 
 
